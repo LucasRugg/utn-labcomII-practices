@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="" id="formularioConversor">
+        <div>
+            <label for="importe">Importe</label>
+            <input required type="number" name="importe" id="importe">
+        </div>
+        <div>
+            <label for="monedas">Moneda</label>
+            <select name="monedas" id="monedas">
+                <option>Elegir moneda</option>
+                <option value="dolar">Dolar</option>
+                <option value="euro">Euro</option>
+            </select>
+        </div>
+        <button type="button" onclick=convertir()>Enviar</button>
+        <h3 id="valorFinal"></h3>
+    </form>
+    <form id="formularioAgregar" action="">
+        <div>
+            <label for="monedaNueva">Moneda</label>
+            <input required type="text" name="monedaNueva" id="monedaNueva">
+        </div>
+        <div>
+            <label for="importeNuevaMoneda">Importe</label>
+            <input required type="number" name="importeNuevaMoneda" id="importeNuevaMoneda">
+        </div>
+
+        <button type="button" onclick=agregarMoneda()>Agregar</button>
+        </div>
+
+    </form>
+
+
+
+    <script src="conversor.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+form {
+  padding: 10px;
+  border: 2px solid green;
+  border-radius: 10px;
+  max-width: 250px;
+  height: 200px;
+}
+input,
+select {
+  width: 150px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
